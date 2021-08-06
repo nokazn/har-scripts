@@ -1,4 +1,8 @@
 {
+  "license": "MIT",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
   "devDependencies": {
     "@types/node": "^16.4.12",
     "ts-node": "^10.1.0",

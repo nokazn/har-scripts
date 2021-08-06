@@ -19,7 +19,7 @@ const SCHEMA = z.array(
 );
 
 type RequestSchema = ReturnType<typeof SCHEMA.parse>;
-type RequestMap = Record<string, RequestSchema>;g a
+type RequestMap = Record<string, RequestSchema>;
 
 /**
  * RequestMap から export した JSON ファイルから、initiator ごとに集計する
